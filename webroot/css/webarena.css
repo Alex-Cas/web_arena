@@ -1,0 +1,278 @@
+/* *************************************************************************
+GENERAL
+************************************************************************* */
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.white {
+    color: rgba(255, 255, 255, 0.8);
+}
+/* *************************************************************************
+HEADER
+************************************************************************* */
+.top-bar {
+    padding: 25px 0;
+}
+.top-bar, .top-bar .menu {
+    background-color: #333;
+}
+.top-bar a {
+    color: rgba(255, 255, 255, 0.9);
+}
+#site-title {
+    font-size: 2.5em;
+}
+#site-title:hover {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+/* **************************************
+OUT GAME
+*************************************** */
+#login-corner .menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#login-corner {
+    width: 15%;
+}
+/* **************************************
+IN GAME
+*************************************** */
+#logout-img {
+    height: 25px;
+    margin-right: 20px;
+}
+#ingame-corner {
+    margin-right: 30px;
+}
+#player-info {
+    color: rgba(255, 255, 255, 0.8);
+    padding-right: 25px;
+}
+#players-access {
+    padding-left: 25px;
+}
+#players-access button {
+    background-color: #333;
+}
+#players-access button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#player-img {
+    width: 40px;
+}
+#player-img:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+header i {
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+/* *************************************************************************
+CENTER BLOCKS
+************************************************************************* */
+#center-block {
+    min-height: 100vh;
+    background-image: url('../img/layout/vintage-concrete.png');
+}
+#index-content {
+    min-height: 100vh;
+    background-image: url("../img/layout/index.jpg");
+}
+
+/* *************************************************************************
+NAVIGATION
+************************************************************************* */
+nav {
+    background-image: url("../img/layout/side.jpg");
+    padding-top: 50px;
+    border-right: 3px solid #591310;
+}
+nav a {
+    width: 100%;
+}
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav span {
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.8);
+}
+nav i {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.8);;
+}
+.menu .is-active > a, .is-active span, .is-active i {
+    background-image: url('../img/layout/vintage-concrete.png');
+    color: rgba(0, 0, 0, 0.9);
+}
+/* *************************************************************************
+CONTENU - PAGES HORS JEU
+************************************************************************* */
+
+#form-title {
+    color: #491c04; 
+    margin: 20px 0 10px 0;  
+}
+#form-box {
+    background-image: url("../img/layout/dirt.png");
+    border: 7px ridge #491c04;
+    height: 500px;
+}
+.first-form-row {
+    margin-top: 70px;
+}
+.form-button, .button.success {
+    margin-top: 50px;
+    color: #491c04;
+    border-color: #491c04;
+    background-color: #d8a668;
+    display: block;
+    overflow: hidden;
+}
+
+/* *************************************************************************
+FOOTER
+************************************************************************* */
+
+footer {
+    padding: 60px 20px 30px 20px;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer .cell {
+    padding: 0 40px;
+}
+footer p, footer li {
+    font-size: 0.9em;
+}
+footer hr {
+       border-color: rgba(255, 255, 255, 0.2); 
+}
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* *************************************************************************
+OFF CANVAS CONTENT
+************************************************************************* */
+
+#fighters {
+    background-color: #333;
+}
+
+#fighters-list {
+    margin-top: 77px;
+}
+#fighters-list img {
+    width: 40px; 
+    height: 40px;
+    margin-right: 20px;
+}
+#fighters-list a {
+    padding-left: 30px;
+    line-height: 39px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#fighters-list a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.level {
+    color: rgb(188, 107, 15);
+}
+#fighters-list hr, #nolody-here hr {
+    border-color: rgba(255, 255, 255, 0.2); 
+    margin: 2px 0;
+}
+#nobody-here {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 96px;
+    padding-left: 22px;
+}
+
+/* *************************************************************************
+MEDIA QUERIES
+************************************************************************* */
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    nav i {
+        font-size: 1.2em; 
+    }
+    #site-title {
+        font-size: 2em;
+    }
+}
+
+
+/* *************************************************************************
+TO MOVE
+************************************************************************* */
+.case>*{
+    width: 63px;
+    height: 63px;
+}
+
+.row{
+    width: 80%;
+    margin: auto;
+}
+
+.card-image{
+    height: 225px;
+    overflow-y: hidden;
+}
+
+td, tr{
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+table{
+    max-width: 900px;
+    min-width: 400px;
+    border: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.arrow, .sword{
+    width: 60px;
+    height: 60px;
+    background-position: center; 
+}
+.arrow{
+    background-image: url('../img/up_arrow.png');
+}
+.sword{
+    background-image: url('../img/sword_arrow.png');
+}
+.rotate-180{
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.rotate-270{
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.rotate-90{
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg) ;
+    
+}
+.flip{
+    transform: scaleX(-1);
+}
+.control-panel{
+    background-color: grey;
+    min-width: 220px !important;
+    
+}
+.sight-grid{
+    margin: 5em 0 5em 0;
+}
